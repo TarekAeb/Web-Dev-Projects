@@ -23,7 +23,7 @@ body {
     height: 700px;
     width: 370px;
     background: black;
-    border-radius: 40px;
+    border-radius: 30px;
     color: white;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
 }
@@ -33,12 +33,12 @@ body {
     width: 100%;
     background: rgba(0, 0, 0, 0.1);
     color: white;
-    font-size: 3.5rem; 
+    font-size: 3.5rem;
     font-weight: 400;
     padding: 20px;
     overflow: hidden;
     border: none;
-    border-radius: 20px 20px 0 0 ;
+    border-radius: 20px 20px 0 0;
     z-index: 10;
     text-align: right;
 }
@@ -70,8 +70,8 @@ button {
 button:hover {
     opacity: 0.8;
 }
-button:active{
-    opacity: .6;
+button:active {
+    opacity: 0.6;
 }
 .operator {
     background-color: #f1a33c;
@@ -83,19 +83,19 @@ button:active{
 
 .number-0 {
     grid-column: 1 / span 2;
-    border-radius: 40px; 
+    border-radius: 40px;
     justify-content: flex-start;
     padding-left: 43px;
     width: auto;
 }
 
-.bar{
+.bar {
     height: 5px;
     width: 200px;
     background: #a5a5a5;
     margin-bottom: 10px;
 }
-.top-bar{
+.top-bar {
     width: 100%;
     padding: 10px 20px;
     color: white;
